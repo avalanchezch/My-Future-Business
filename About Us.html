@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>
+    About Us
+  </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Wendy+One&display=swap">
+<style>
+  /* Basic styling for the header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #D2B48C; /* Soft brown background color */
+    color: #4A3E37; /* Darker text color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+    font-family: Arial, sans-serif; /* Font for better readability */
+  }
+
+  /* Style for the image */
+  header img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  /* Style for the navigation links */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+  }
+
+  nav ul li {
+    padding: 5px 10px;
+  }
+
+  nav ul li a {
+    color: #4A3E37; /* Darker text color for links */
+    text-decoration: none;
+    font-weight: bold; 
+    transition: color 0.3s ease; /* smooth transition */
+  }
+
+  nav ul li a:hover {
+    color: #8B6914; /* Darker shade of brown for hover effect */
+  }
+
+  body {
+            margin: 0;
+            padding: 0;
+            background-color: #FFF8DC; /* Ivory background color */
+            background-image: url('https://subtlepatterns.com/patterns/straw-wall.png'); /* Replace with your preferred background pattern */
+            font-family: Arial, sans-serif;
+        }
+
+        .about-us-container {
+            padding: 30px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* Ivory background with some transparency */
+            color: #4A3E37; /* Darker text color */
+            border-radius: 20px; /* Rounded corners for the container */
+            margin: 50px; /* Add some margin for separation from the edges */
+            position: relative;
+            align-content: center;
+        }
+
+        .team-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .team-member {
+            width: 200px;
+            margin: 15px;
+            background-color: rgba(255, 255, 255, 0.8); /* Ivory background with some transparency */
+            padding: 15px;
+            border-radius: 10px; /* Rounded corners for each team member */
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Responsive design for team members */
+        @media (max-width: 768px) {
+            .team-member {
+                width: 100%;
+            }
+        }
+
+        .about-us-image {
+            border-radius: 20px; /* Curved corners */
+        }
+
+        .p-main {
+            font-size: 23px;
+            line-height: 1.6;
+            width: 80%;
+            text-align: justify;
+            margin: 0 auto; /* Center the paragraphs */
+            margin-top: 20px;
+        }
+</style>
+
+
+<header>
+    <!-- Left side with the image link -->
+    <a href="https://scontent.xx.fbcdn.net/v/t1.15752-9/411275623_1031419021446395_3221874741260691186_n.jpg?stp=dst-jpg_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=510075&_nc_eui2=AeEawgqx3jbNCOhW3-SFrnB7znOKpyuspzXOc4qnK6ynNfOs9LPAS7F_PCathQlF-tB3AEa9KLaX96MUzIAmWfBi&_nc_ohc=qds-cOJILwcAX8gX_tD&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSuPzuOmfyFWzUvUiqW1ZDPFwLwVgPp9KvOV76PNsZeTQ&oe=65C99A58">
+      <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/411275623_1031419021446395_3221874741260691186_n.jpg?stp=dst-jpg_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=510075&_nc_eui2=AeEawgqx3jbNCOhW3-SFrnB7znOKpyuspzXOc4qnK6ynNfOs9LPAS7F_PCathQlF-tB3AEa9KLaX96MUzIAmWfBi&_nc_ohc=qds-cOJILwcAX8gX_tD&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSuPzuOmfyFWzUvUiqW1ZDPFwLwVgPp9KvOV76PNsZeTQ&oe=65C99A58" alt="Logo">
+    </a>
+
+    <!-- Right side with navigation links -->
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Service.html">Products/Services</a></li>
+        <li><a href="Partnership.html">Partnership</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+</header>
+
+<div class="about-us-container content-section">
+    <h1 style="font-family: 'Wendy One', sans-serif; font-size: 50px;">ABOUT US</h1>
+    <img class="about-us-image" src="https://scontent.fmnl34-1.fna.fbcdn.net/v/t1.15752-9/413339664_744689337559330_2359737598573628750_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeERmw7iVmxt6GtyMSC9SeYAIP6vhWi54E4g_q-FaLngTnqFZN55mN_eI0OxpoIgDdb6obxtcDO8jXK6IawRk63c&_nc_ohc=ggXFq_iqqhkAX8-dKD4&_nc_ht=scontent.fmnl34-1.fna&oh=03_AdQa4sZoQbMZgztkElLdKEkdSu3cPgvtrE4TxW_lVMVURA&oe=65CB43AC" width="80%">
+    <p class="p-main" style="font-size: 23px; line-height: 1.6;font-family: 'Concert One', cursive; width: 80%; text-align: justify; margin-top: 20px;">
+        Lil' Dozen is more than just a sweet treat destination; it's a small business with a 
+        big heart and a mission to make a positive impact in the community. Specializing in 
+        bite-sized, delightful doughnuts, Lil' Dozen goes beyond the realm of profit-making, 
+        aiming to address and alleviate community problems.
+    </p>
+    <p class="p-main" style="font-size: 23px; line-height: 1.6;font-family: 'Concert One', cursive; width: 80%; text-align: justify;">
+        In a world filled with challenges, Lil' Dozen recognizes the power of a simple smile 
+        and believes that sweetness can extend beyond the flavor of their doughnuts. With the 
+        philosophy that selling dozens of sweet treats can bring joy to a thousand faces, Lil' 
+        Dozen actively contributes to making everyday lives a bit brighter for those facing hardships.
+    </p>
+    <p class="p-main" style="font-size: 23px; line-height: 1.6;font-family: 'Concert One', cursive; width: 80%; text-align: justify;">
+        Lil' Dozen's commitment to community solutions involves various initiatives, such as 
+        partnering with local charities, sponsoring events, and implementing programs to support 
+        those in need. Every purchase from Lil' Dozen not only satisfies your sweet tooth but also 
+        contributes to the broader goal of creating positive change.
+    </p>
+    <p class="p-main" style="font-size: 23px; line-height: 1.6;font-family: 'Concert One', cursive; width: 80%; text-align: justify; margin-bottom: 30px;">
+        The Lil' Dozen experience goes beyond the delightful taste of their doughnuts; it's about 
+        creating a ripple effect of happiness and kindness in the community. Join Lil' Dozen in 
+        spreading joy, one sweet smile at a time, and savor the goodness that comes from a business 
+        that truly cares about making a difference.
+    </p>
+</div>
+
+<section class="content-section team-section">
+<!-- Team Member 1 -->
+<div class="team-member">
+    <img src="team_member1.jpg" alt="Team Member 1">
+    <h3>John Baker</h3>
+    <p>Founder & Head Baker</p>
+</div>
+
+<!-- Team Member 2 -->
+<div class="team-member">
+    <img src="team_member2.jpg" alt="Team Member 2">
+    <h3>Amy Chefson</h3>
+    <p>Executive Chef</p>
+</div>
+
+<!-- Add more team members as needed -->
+</section>
+
+
+
+<footer style="background-color: #D2B48C; color: #4A3E37; padding: 20px 0; text-align: center;">
+<p>&copy; 2024 Lil' Dozen. All rights reserved.</p>
+<div>
+    <a href="/privacy-policy">Privacy Policy</a> |
+    <a href="/terms-of-service">Terms of Service</a>
+</div>
+</footer>
+
+</body>
+
+</html>
