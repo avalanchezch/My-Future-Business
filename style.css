@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #B99976
+}
+
+section {
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background: #F2F2F3
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #D2B48C;
+  color: #4A3E37;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+  max-width: 200px;
+  height: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li {
+  padding: 5px 10px;
+}
+
+nav ul li a {
+  color: #4A3E37;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #8B6914;
+}
+
+.slide-container {
+  position: relative;
+  width: 60%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.images {
+  display: flex;
+  width: 100%; /* Adjusted width to accommodate three images */
+  transition: transform 0.5s ease; /* Use transform for smoother animation */
+}
+
+.images img {
+  width: 100%;
+  height: auto;
+}
+
+.radio-btn {
+  display: none;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.dots label {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: solid #4A3E37 3px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 0 5px;
+}
+
+.dots label:hover {
+  background: #8B6914;
+}
+
+#img1:checked ~ .images {
+  transform: translateX(0);
+}
+
+#img2:checked ~ .images {
+  transform: translateX(-100%);
+}
+
+#img3:checked ~ .images {
+  transform: translateX(-200%);
+}
