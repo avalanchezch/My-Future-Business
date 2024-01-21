@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>
+    Service
+  </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Wendy+One&display=swap">
+<style>
+  /* Basic styling for the header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #D2B48C; /* Soft brown background color */
+    color: #4A3E37; /* Darker text color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+    font-family: Arial, sans-serif; /* Font for better readability */
+  }
+
+  /* Style for the image */
+  header img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  /* Style for the navigation links */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+  }
+
+  nav ul li {
+    padding: 5px 10px;
+  }
+
+  nav ul li a {
+    color: #4A3E37; /* Darker text color for links */
+    text-decoration: none;
+    font-weight: bold; 
+    transition: color 0.3s ease; /* smooth transition */
+  }
+
+  nav ul li a:hover {
+    color: #8B6914; /* Darker shade of brown for hover effect */
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+      margin: 0;
+      padding: 0;
+      background-color: #FFF8DC;
+  }
+
+  .line-break {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://icons.iconarchive.com/icons/iconarchive/fat-sugar-food/512/Donut-icon.png');
+      background-repeat: repeat; 
+      opacity: 0.1; /* Adjust the opacity as needed */
+      z-index: -1; /* Move it behind other elements */
+  }
+
+  .team-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        
+  .menu-pic {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+  }
+
+  .beveled-image {
+      border-radius: 15px; /* Adjust the border-radius as needed */
+      position: relative;
+      width: 1280px;
+      height: 720px;
+      overflow: hidden;
+      transition: box-shadow 0.3s ease-in-out;
+      margin-bottom: 80px;
+    }
+
+    .beveled-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .beveled-image:hover {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+  
+    /*footer*/
+
+  footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    footer .footer-columns {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    footer .footer-column {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    footer .footer-column:last-child {
+      margin-right: 0;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    footer ul li {
+      margin-bottom: 10px;
+      transition: color 0.3s ease-in-out; /* Add transition effect */
+    }
+
+    footer ul li:hover,
+  footer ul li:hover a {
+    color: #fafc7a; /* Change color on hover */
+  }
+
+    footer p {
+      margin: 0;
+    }
+
+    footer .footer-list {
+      color: #FFF8DC; /* Light Goldenrod Yellow */
+    }
+</style>
+
+<header>
+    <!-- Left side with the image link -->
+    <a href="https://scontent.xx.fbcdn.net/v/t1.15752-9/411275623_1031419021446395_3221874741260691186_n.jpg?stp=dst-jpg_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=510075&_nc_eui2=AeEawgqx3jbNCOhW3-SFrnB7znOKpyuspzXOc4qnK6ynNfOs9LPAS7F_PCathQlF-tB3AEa9KLaX96MUzIAmWfBi&_nc_ohc=qds-cOJILwcAX8gX_tD&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSuPzuOmfyFWzUvUiqW1ZDPFwLwVgPp9KvOV76PNsZeTQ&oe=65C99A58">
+      <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/411275623_1031419021446395_3221874741260691186_n.jpg?stp=dst-jpg_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=510075&_nc_eui2=AeEawgqx3jbNCOhW3-SFrnB7znOKpyuspzXOc4qnK6ynNfOs9LPAS7F_PCathQlF-tB3AEa9KLaX96MUzIAmWfBi&_nc_ohc=qds-cOJILwcAX8gX_tD&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSuPzuOmfyFWzUvUiqW1ZDPFwLwVgPp9KvOV76PNsZeTQ&oe=65C99A58" alt="Logo">
+    </a>
+  
+    <!-- Right side with navigation links -->
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Service.html">Products/Services</a></li>
+        <li><a href="Partnership.html">Partnership</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+</header>
+
+<section class="section2">
+    <h1 style="font-family: 'Wendy One', sans-serif; font-size: 70px; text-align: center; color: #5C4033;">BUNDLE</h1>
+</section>
+
+<body>
+    <div class="line-break"></div>
+</body>
+
+<section class="team-section">
+  <div class="beveled-image">
+    <img src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t1.15752-9/413176141_933757844322054_8667672275453560988_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFt3-EnqscyF8vM4b4sXljw_cXIVZYtarT9xchVli1qtEy5GoYqihaUwDZhRNP-3mQu_r_hhSrGxQh-fTlLX8rE&_nc_ohc=T-yFmEFkZL4AX8YcMgl&_nc_ht=scontent.fmnl25-3.fna&oh=03_AdSDz3hqf8OEp-Prf8e6ihhGJrQE9RcteSuNcdXyie_OJw&oe=65D4A765">
+  </div>
+</section>
+
+<footer style="background-color: #D2B48C; /* Soft brown background color */
+               color: #4A3E37; /* Darker text color */
+               padding: 20px 0; /* Padding for content inside the footer */
+               text-align: center; /* Center-align the content */">
+    
+    <div class="footer-columns" style="font-family: 'Concert One', cursive;">
+      <div class="footer-column">
+        <p>Contact Us:</p>
+        <ul class="footer-list">
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Phone</a></li>
+        </ul>
+      </div>
+    
+      <div class="footer-column">
+        <p>Follow Us:</p>
+        <ul class="footer-list">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    
+      <div class="footer-column">
+        <p>Quick Links:</p>
+        <ul class="footer-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>    
+    
+    <!-- Copyright notice -->
+    <p>&copy; 2024 Lil' Dozen. All rights reserved.</p>
+    
+    <!-- Optional: Add links or additional information as needed -->
+    <div>
+      <a href="Privacy Policy.html">Privacy Policy</a> |
+      <a href="Terms of Service.html">Terms of Service</a>
+    </div>
+</footer>

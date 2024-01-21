@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>
+    Service
+  </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Wendy+One&display=swap">
+<style>
+  /* Basic styling for the header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #D2B48C; /* Soft brown background color */
+    color: #4A3E37; /* Darker text color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+    font-family: Arial, sans-serif; /* Font for better readability */
+  }
+
+  /* Style for the image */
+  header img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  /* Style for the navigation links */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+  }
+
+  nav ul li {
+    padding: 5px 10px;
+  }
+
+  nav ul li a {
+    color: #4A3E37; /* Darker text color for links */
+    text-decoration: none;
+    font-weight: bold; 
+    transition: color 0.3s ease; /* smooth transition */
+  }
+
+  nav ul li a:hover {
+    color: #8B6914; /* Darker shade of brown for hover effect */
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+      margin: 0;
+      padding: 0;
+      background-color: #FFF8DC;
+  }
+
+  .line-break {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://icons.iconarchive.com/icons/iconarchive/fat-sugar-food/512/Donut-icon.png');
+      background-repeat: repeat; 
+      opacity: 0.1; /* Adjust the opacity as needed */
+      z-index: -1; /* Move it behind other elements */
+  }
+
+  /*CSS for P-donuts*/
+
+  .team-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        
+  .menu-pic {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+  }
+
+  .beveled-image {
+      border-radius: 15px; /* Adjust the border-radius as needed */
+      position: relative;
+      width: 384px;
+      height: 512px;
+      overflow: hidden;
+      transition: box-shadow 0.3s ease-in-out;
+      margin-bottom: 80px;
+    }
+
+    .beveled-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .beveled-image:hover {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+
+    /*footer*/
+
+  footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    footer .footer-columns {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    footer .footer-column {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    footer .footer-column:last-child {
+      margin-right: 0;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    footer ul li {
+      margin-bottom: 10px;
+      transition: color 0.3s ease-in-out; /* Add transition effect */
+    }
+
+    footer ul li:hover,
+  footer ul li:hover a {
+    color: #fafc7a; /* Change color on hover */
+  }
+
+    footer p {
+      margin: 0;
+    }
+
+    footer .footer-list {
+      color: #FFF8DC; /* Light Goldenrod Yellow */
+    }
+</style>
+
+<header>
+    <!-- Left side with the image link -->
+    <a href="https://scontent.xx.fbcdn.net/v/t1.15752-9/411275623_1031419021446395_3221874741260691186_n.jpg?stp=dst-jpg_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=510075&_nc_eui2=AeEawgqx3jbNCOhW3-SFrnB7znOKpyuspzXOc4qnK6ynNfOs9LPAS7F_PCathQlF-tB3AEa9KLaX96MUzIAmWfBi&_nc_ohc=qds-cOJILwcAX8gX_tD&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSuPzuOmfyFWzUvUiqW1ZDPFwLwVgPp9KvOV76PNsZeTQ&oe=65C99A58">
+      <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/411275623_1031419021446395_3221874741260691186_n.jpg?stp=dst-jpg_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=510075&_nc_eui2=AeEawgqx3jbNCOhW3-SFrnB7znOKpyuspzXOc4qnK6ynNfOs9LPAS7F_PCathQlF-tB3AEa9KLaX96MUzIAmWfBi&_nc_ohc=qds-cOJILwcAX8gX_tD&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSuPzuOmfyFWzUvUiqW1ZDPFwLwVgPp9KvOV76PNsZeTQ&oe=65C99A58" alt="Logo">
+    </a>
+  
+    <!-- Right side with navigation links -->
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Service.html">Products/Services</a></li>
+        <li><a href="Partnership.html">Partnership</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="line-break"></div>
+</body>
+
+<section class="section2">
+    <h1 style="font-family: 'Wendy One', sans-serif; font-size: 70px; text-align: center; color: #5C4033;">PREMIUM DOUGHNUTS</h1>
+</section>
+
+<section class="team-section">
+  <div class="beveled-image">
+    <img src="https://scontent.fmnl25-2.fna.fbcdn.net/v/t1.15752-9/416048485_727734285997246_2440290025389312522_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHkf7uVJ3J4Xwc6umPfSs-cGzGrTMSUU_cbMatMxJRT9xLk337B3EO1OzRHGRgM4aZc8Fg2uoUbwbPmsGMqwIyj&_nc_ohc=rLzpscOnpwsAX-JhUlO&_nc_ht=scontent.fmnl25-2.fna&oh=03_AdTzjmw8IPL9TpWqEJkUE15pefZvYYTXyfNxuiW_Kgvl9A&oe=65D4D2D4">
+  </div>
+  <div class="beveled-image">
+    <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/414321618_1440564293470072_3992714036804211302_n.png?_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGyhDkXq-RlJTgcEanKgmJryueVeLoz8FHK55V4ujPwUcfOCPdiZbtOaAmTYSIO7dYu7nDYW3LMpzBWZWtSjWW9&_nc_ohc=eONfbtS4vkgAX8qCmGl&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdREh2g04gpgSsHZfdd-vbvc_rvGbsPKiyRWu_yahWlOWw&oe=65D4B76B">
+  </div>
+  <div class="beveled-image">
+    <img src="https://scontent.fmnl25-5.fna.fbcdn.net/v/t1.15752-9/416004283_746756020713202_32720639119413371_n.png?_nc_cat=110&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEilTMHreWL8iSySooZKCbcKwO_oX8Q6fQrA7-hfxDp9OVBMOPoXSUhKtaCShvyfs_pO6liJJe3jBxgoBubdVbv&_nc_ohc=icATGKBgrRkAX9AJHls&_nc_ht=scontent.fmnl25-5.fna&oh=03_AdTwP8g43rx_va8sDvgliIfIeoDnnjk4A7PA0m0nVzVXnA&oe=65D4D0AE">
+  </div>
+  <div class="beveled-image">
+    <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/415805333_398211842653229_6780918327180184264_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEJjafvb16CA7QzDt8q84JSGGFwsvpCqG0YYXCy-kKobSeCLp1IPj-cL32x4Twwx9Fp9siz3FxZ7Lo4fEJ9Ap5v&_nc_ohc=lsMgM7q07-oAX9S3CJX&_nc_ht=scontent.fmnl25-1.fna&oh=03_AdQt1HZP2BQ98a2sJyjN99GWCYAPbd1M1d_JRTOkSn5cnQ&oe=65D4AB4F">
+  </div>
+  <div class="beveled-image">
+    <img src="https://scontent.fmnl25-2.fna.fbcdn.net/v/t1.15752-9/416090473_1453132328600877_8791338784065249909_n.png?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEZhBsUg3NUihWEAA4DjlJHuJOwvlwqjrm4k7C-XCqOucS-eUAGbjQwEPqftvpo7Z7s4tcdhjnYlI2DP3ImEU1V&_nc_ohc=kTpcvsJ9pfMAX9Ss0tE&_nc_ht=scontent.fmnl25-2.fna&oh=03_AdRzwYVfYlBLUXTeO7UkJFSdhnCJ02DDES4cANKKR7SX5A&oe=65D4D548">
+  </div>
+  <div class="beveled-image">
+    <img src="https://scontent.fmnl25-5.fna.fbcdn.net/v/t1.15752-9/415766752_3553866508162777_3196392097342239544_n.png?_nc_cat=110&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEi1F1GTl_6A98AUgHpQoRd35VnFFLaN-7flWcUUto37j7o9VZV9f-ww667uQUmm0Tju4EkDhPiNDD_6xQRQ4XM&_nc_ohc=TM--phBz_wIAX8CY_DU&_nc_ht=scontent.fmnl25-5.fna&oh=03_AdSzUz7ctp6KbOUM_32NhlOtgOsc9sK9ZUtMmpqCMpyovQ&oe=65D4CF1D">
+  </div>
+</section>
+
+<footer style="background-color: #D2B48C; /* Soft brown background color */
+               color: #4A3E37; /* Darker text color */
+               padding: 20px 0; /* Padding for content inside the footer */
+               text-align: center; /* Center-align the content */">
+    
+    <div class="footer-columns" style="font-family: 'Concert One', cursive;">
+      <div class="footer-column">
+        <p>Contact Us:</p>
+        <ul class="footer-list">
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Phone</a></li>
+        </ul>
+      </div>
+    
+      <div class="footer-column">
+        <p>Follow Us:</p>
+        <ul class="footer-list">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    
+      <div class="footer-column">
+        <p>Quick Links:</p>
+        <ul class="footer-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>    
+    
+    <!-- Copyright notice -->
+    <p>&copy; 2024 Lil' Dozen. All rights reserved.</p>
+    
+    <!-- Optional: Add links or additional information as needed -->
+    <div>
+      <a href="Privacy Policy.html">Privacy Policy</a> |
+      <a href="Terms of Service.html">Terms of Service</a>
+    </div>
+</footer>
