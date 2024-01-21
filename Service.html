@@ -73,12 +73,181 @@
       z-index: -1; /* Move it behind other elements */
   }
 
+/*css for the slider part*/
+  .body-content {
+    margin: 0;
+    font-family: monospace;
+  }
+
+  .slider {
+    width: 1300px;
+    max-width: 100vw;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    width: max-content;
+    transition: 1s;
+  }
+
+  .list img {
+    width: 1300px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 20px;
+  }
+
+  .buttons {
+    position:absolute;
+    top: 630px;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #795b0e;
+    color:#FFF8DC;
+    font-family: monospace;
+    font-weight: bold;
+  }
+
+  .dots {
+    position: absolute;
+    bottom: 5px;
+    color:#795b0e;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .dots li {
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #795b0e;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s;
+  }
+
+  .dots li.active {
+    width: 30px;
+  }
+
+  /*CSS for main menu*/
+
+  .team-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        
+  .menu-pic {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+  }
+
+  .beveled-image {
+      border-radius: 15px; /* Adjust the border-radius as needed */
+      position: relative;
+      width: 350px;
+      height: 350px;
+      overflow: hidden;
+      transition: box-shadow 0.3s ease-in-out;
+      margin-bottom: 80px;
+    }
+
+    .beveled-image:hover {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .beveled-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    /*footer*/
+
+  footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    footer .footer-columns {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    footer .footer-column {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    footer .footer-column:last-child {
+      margin-right: 0;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    footer ul li {
+      margin-bottom: 10px;
+      transition: color 0.3s ease-in-out; /* Add transition effect */
+    }
+
+    footer ul li:hover,
+  footer ul li:hover a {
+    color: #fafc7a; /* Change color on hover */
+  }
+
+    footer p {
+      margin: 0;
+    }
+
+    footer .footer-list {
+      color: #FFF8DC; /* Light Goldenrod Yellow */
+    }
+
 </style>
+
+</head>
 
 <header>
     <!-- Left side with the image link -->
-    <a href="https://scontent.xx.fbcdn.net/v/t1.15752-9/411275623_1031419021446395_3221874741260691186_n.jpg?stp=dst-jpg_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=510075&_nc_eui2=AeEawgqx3jbNCOhW3-SFrnB7znOKpyuspzXOc4qnK6ynNfOs9LPAS7F_PCathQlF-tB3AEa9KLaX96MUzIAmWfBi&_nc_ohc=qds-cOJILwcAX8gX_tD&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSuPzuOmfyFWzUvUiqW1ZDPFwLwVgPp9KvOV76PNsZeTQ&oe=65C99A58">
-      <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/411275623_1031419021446395_3221874741260691186_n.jpg?stp=dst-jpg_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=510075&_nc_eui2=AeEawgqx3jbNCOhW3-SFrnB7znOKpyuspzXOc4qnK6ynNfOs9LPAS7F_PCathQlF-tB3AEa9KLaX96MUzIAmWfBi&_nc_ohc=qds-cOJILwcAX8gX_tD&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSuPzuOmfyFWzUvUiqW1ZDPFwLwVgPp9KvOV76PNsZeTQ&oe=65C99A58" alt="Logo">
+    <a href="Home.html">
+      <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/415603648_1744353239410126_22271825435465277_n.png?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeH4LK6S3yJyESUH1bDvMisDlGbA7A9onIKUZsDsD2icgvJBLGWwUeOrhjMIWwoBb-1IsrJaIJUSWOWMc-H6K9FW&_nc_ohc=LSYF_aoZk5gAX83CsOg&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdTNhTLeDm8H9inDxxSobB-NYPIf1lyCo_liTyJUlCQ27Q&oe=65D4D9A1" alt="Logo">
     </a>
   
     <!-- Right side with navigation links -->
@@ -97,10 +266,178 @@
     <h1 style="font-family: 'Wendy One', sans-serif; font-size: 70px; text-align: center; color: #5C4033;">MENU</h1>
 </section>
 
-<body>
+<body >
      <div class="line-break"></div>
+     
+     <div class="slider">
+      <div class="list">
+        <div class="item">
+          <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/414138849_185969914606570_7407255953676237229_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHyyX2u4rNy1esa4IiZTqeS_aEW3BAfvBT9oRbcEB-8FOxLImr4DR6w0RYjRNHoxrsbhOnJqY9xhHbz2gZIQWf0&_nc_ohc=gQEdIiV5j5AAX-vRjvk&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdSeUXiR7IsveGcv-ANV2F552P-PJ6_hWn96niZmbcu48g&oe=65D39BA3">
+        </div>
+        <div class="item">
+          <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/414190460_1062590188184604_4326608921468201260_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGevZ5ReR0n4VIjZrcZTstKtrw1jKp8P8i2vDWMqnw_yM1Sbn5fEQg0Sj2IZsB0zPtysQH2_O-GwRmlq5JSnxrY&_nc_ohc=nRcIHMb8DhwAX-An5Ta&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdTkKtSqS25kxp1De9pPguYquvsUAvV6eJiuqNccpAMAgA&oe=65D3913C">
+        </div>
+        <div class="item">
+          <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/418369232_906893704323215_7574865736516810648_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEtCQroFjyEhtQ1mfmy_JSPgWvfIk9WI_KBa98iT1Yj8kbAjHx7H4ygCcuLknfKRIJVsF39R6bPuXi0AW_Ak4T_&_nc_ohc=nXlUqMmatREAX92FFV_&_nc_ht=scontent.fmnl25-1.fna&oh=03_AdThL78hKi8eKS23WkFgLgWrg3bOIe_AoUm1tmdAgxmVyg&oe=65D387EC">
+        </div>
+        <div class="item">
+          <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/413898029_3918032651669672_2195955385426320662_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHX3qaP-5q9oGM1y-MO75jFk4VFiEKTvbiThUWIQpO9uHQbpWLlpEs-LQ_Pax_Dn285_ONPiMmCNfKKZLx5b0uI&_nc_ohc=0dxeewcQw-0AX_VOu6k&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdS61jiua6RRDO9Se6BaaCCsED1_f9LBQLq_I_8ZrTxNdw&oe=65D38503">
+        </div>
+        <div class="item">
+          <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/414162954_3310746602551478_3109586733926528570_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHhb2cZCmKuMVsotzVDmMUhjN0ksqKUiUeM3SSyopSJR7ER7_WExMaHZElwUjH7lv0KVs32JlFcQ9j1fQ-tO5hI&_nc_ohc=RfT45Rgv_DwAX8h95Xd&_nc_ht=scontent.fmnl25-1.fna&oh=03_AdRWJkdaE0DkZnslYbF7f6qiGJCN8QwwNm7mqIsbbOCcNw&oe=65D3AFAB">
+        </div>
+        <div class="item">
+          <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/414181315_697591149157780_3260306366902687830_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHbTJ7dEdnD-gX27AYwquRsr22HLXy672SvbYctfLrvZA0dZosddbwEqUZ8frrZYmSWpay6f0B3g-9gJXq2B7X4&_nc_ohc=8-2cRE-zvXQAX9w_rRr&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdQBkZfxn7yKfnmeU6dSpKAdKPAEpP91RSuHDl4AtyYoAQ&oe=65D39893">
+        </div>
+        <div class="item">
+          <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/418012942_686425530305230_437143213888558214_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHRKASdXFp3r-VQfJ4Dc9GU5YSyEUY0t0jlhLIRRjS3SMwUqcS4-MA6YFcCEs4HaI_j9VnrNEgJfhJbNhD7QJR_&_nc_ohc=MWgT3ij7ZMUAX9OxUe7&_nc_ht=scontent.fmnl25-1.fna&oh=03_AdTMHLvlV2fO2FgXVoSFPXrAP5EW4XYEpFgl8s35215AIw&oe=65D3A9F3">
+        </div>
+        <div class="item">
+          <img src="https://scontent.fmnl25-2.fna.fbcdn.net/v/t1.15752-9/414020053_1015673566196436_8982050014507651386_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGPSBbwo5ypyMBTpcFelFgycEFGZffXkohwQUZl99eSiKxM8HBum_FhGmpHEek6U15gmgnbervSWYiRNkXfo0p_&_nc_ohc=8IWTJCrnXbEAX__cpse&_nc_ht=scontent.fmnl25-2.fna&oh=03_AdRQM3uTU_sLP63GZ_gBllEOmd6SD-9Z_uv2-UaXg0_UvA&oe=65D37ECA">
+        </div>
+        <div class="item">
+          <img src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t1.15752-9/414265167_1437336150467309_3053552471122707280_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeG_hU2ORB0jKQ8od6ZzLyC-6FJRCqNcZYzoUlEKo1xljHVkOh0IlYWwb9L9ScX-IUyTOPwiL6t7H34rAVHCiDCU&_nc_ohc=FCD5aYfUJdkAX8jVGvU&_nc_ht=scontent.fmnl25-3.fna&oh=03_AdQ1QyxkpdV_SRtwHiZQ79B7vj-DeC0hLS1enhVxGi41Jg&oe=65D393C3">
+        </div>
+        <div class="item">
+          <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/414000435_245592598484612_1192849321133312956_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHVUpSKkjiM3m15l2u-ZaUBJNgu7zCIri4k2C7vMIiuLqRF5ToThpYdFJy-E34BK__2LushsvU791gUR2oI8BgA&_nc_ohc=-yKhRCQgBMIAX9veH2j&_nc_oc=AQkUm1K5-cdVxnvAJnAKkAzxVdqk9YNRynQcvnVQLNKf1Ed4SqJ5L7u0rT7DNj7BVi8&_nc_ht=scontent.fmnl25-1.fna&oh=03_AdTHtIMU2XFi95Hr7_AmKtC0WC0ID37NuxXPntSP2uvqug&oe=65D38134">
+        </div>
+        <div class="item">
+          <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/414008458_293622087055820_9054360109445543791_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFTEsX7fP3b8GDfiI-8B_sSTZHnk21CGm1NkeeTbUIabZF1zEevgCIHlR3BI9bc-xIGYB_JTI2Tg-N5TuEjZcde&_nc_ohc=-x-zzdAsPMkAX_QpfWy&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdT-hbEBfzVSdL0nVLuJ_UGew3EOhen2Jk_r5bR8XzdmCw&oe=65D3A850">
+        </div>
+        <div class="item">
+          <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/420523916_24593131393666624_5839542257656666161_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHH8S232fm1K5ocjR6lEK8CmA4F-YX78eKYDgX5hfvx4uSFZuSfsdXfpSE3GqAer1XATO85Xmqh_MVKnu3O4o4O&_nc_ohc=qpsFKVg3hrYAX-UZQo8&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdSA8KMT3QnsGuOSCXP8t-0-WAcnAGiflzAYRF9kr9PWhA&oe=65D395C3">
+        </div>
+      </div>
+     </div>
+     <!--for the button betch-->
+     <div class="buttons">
+        <button id="prev"><</button>
+        <button id="next">></button>
+     </div> 
+  
+     <script>
+      let list = document.querySelector('.slider .list');
+      let items = document.querySelectorAll('.slider .list .item');
+      let dots = document.querySelectorAll('.slider .dots li');
+      let prev = document.getElementById('prev');
+      let next = document.getElementById('next');
+  
+      let active = 0;
+  
+      next.onclick = function () {
+        active = (active + 1) % items.length;
+        reloadSlider();
+      };
+  
+      prev.onclick = function () {
+        active = (active - 1 + items.length) % items.length;
+        reloadSlider();
+      };
+  
+      function reloadSlider() {
+        let checkLeft = items[active].offsetLeft;
+        list.style.left = -checkLeft + 'px';
+  
+        let lastActiveDot = document.querySelector('.slider .dots li.active');
+        lastActiveDot.classList.remove('active');
+        dots[active].classList.add('active');
+  
+        // Clear the existing automatic slide change and start a new one
+        clearTimeout(autoSlide);
+        autoSlide = setTimeout(() => {
+          next.click();
+        }, 5000);
+      }
+  
+      dots.forEach((li, index) => {
+        li.addEventListener('click', function () {
+          active = index;
+          reloadSlider();
+        });
+      });
+  
+      // Function to handle continuous reloading without resetting to the first slide
+      function continuousReload() {
+        next.click();
+        setTimeout(continuousReload, 5000);
+      }
+  
+      // Initialize the automatic slide change
+      let autoSlide = setTimeout(() => {
+        continuousReload();
+      }, 3000);
+    </script>
+    </script>
 </body>
 
+<section>
+  <h1 style="font-family: 'Wendy One', sans-serif; font-size: 70px; text-align: center; color: #5C4033;">Experience Our Culinary Palette</h1>
+</section>
+
+<section class="team-section">
+    <a href="Classic Donuts.html">
+      <div class="beveled-image">
+        <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/413310915_921480729691985_4290542265361908523_n.png?_nc_cat=103&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFdBMnKvI5RBaesQh11hp3Mw32EUePUwO_DfYRR49TA75uYdk2InI0xAIg024tzAZxmc911rJrY3le5ah6jTGCG&_nc_ohc=QlAM9Bw0XjgAX_7_MNE&_nc_ht=scontent.fmnl25-1.fna&oh=03_AdREHBhwsaek4QtwR6lqMXbTNPiERnvqNaBMA9MLgAkcxw&oe=65D49857" alt="Classic Donuts">
+      </div>
+    </a>
+
+    <a href="Premium Donuts.html">
+      <div class="beveled-image">
+        <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/416009070_399894575717983_4111554634383123135_n.png?_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHel3z5X5yMADAADBMmx8ifkIl4xYhdFRqQiXjFiF0VGja564hi8VAQnkf4BloTm2Env4v-dRGQe-u9-_aJe4pD&_nc_ohc=cbO0-1OaK3YAX_cMO7v&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdTFVA4A_9Xu3Xz0VVf28-NOOtluchyM9VbEVOZKJq5pGA&oe=65D497C2" alt="Premium Donuts">
+      </div>
+    </a>
+
+    <a href="Bundle Donuts.html">
+      <div class="beveled-image">
+        <img src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t1.15752-9/415766753_1724243034653745_3598512970862271837_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFZZKsyn4Wu0JBIN3R7cZeO_hOM15gPbTX-E4zXmA9tNe5pRrDgvCOV1tXZXR1a3pxK0S6Fw3KsZA19eJcQaE2k&_nc_ohc=2xtEuKoJM5UAX8YbTie&_nc_ht=scontent.fmnl25-3.fna&oh=03_AdTT89jdZPtXrnXmOGXIy92xo07by5f4qVjTU_wc5_C0Ow&oe=65D48D3B" alt="Bundle Donuts">
+      </div>
+    </a>
+
+</section>
+
+<footer style="background-color: #D2B48C; /* Soft brown background color */
+               color: #4A3E37; /* Darker text color */
+               padding: 20px 0; /* Padding for content inside the footer */
+               text-align: center; /* Center-align the content */">
+
+<div class="footer-columns" style="font-family: 'Concert One', cursive;">
+  <div class="footer-column">
+    <p>Contact Us:</p>
+    <ul class="footer-list">
+      <li><a href="#">Email</a></li>
+      <li><a href="#">Phone</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-column">
+    <p>Follow Us:</p>
+    <ul class="footer-list">
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Instagram</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-column">
+    <p>Quick Links:</p>
+    <ul class="footer-list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</div>        
+
+    <!-- Copyright notice -->
+    <p>&copy; 2024 Lil' Dozen. All rights reserved.</p>
+    
+    <!-- Optional: Add links or additional information as needed -->
+    <div>
+      <a href="Privacy Policy.html">Privacy Policy</a> |
+      <a href="Terms of Service.html">Terms of Service</a>
+    </div>
+</footer>
 
 </html>
 
