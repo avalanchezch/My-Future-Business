@@ -2,30 +2,19 @@
 <html lang="en">
 <head>
   <title>
-    Service
+    Products
   </title>
+    <link href="https://fonts.cdnfonts.com/css/bontang" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Wendy+One&display=swap">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="head-foot.css">
 <style>
-  /* Basic styling for the header */
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    background-color: #D2B48C; /* Soft brown background color */
-    color: #4A3E37; /* Darker text color */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
-    font-family: Arial, sans-serif; /* Font for better readability */
-  }
-
-  /* Style for the image */
-  header img {
-    max-width: 200px;
-    height: auto;
-  }
-
+  
   /* Style for the navigation links */
   nav ul {
     list-style-type: none;
@@ -186,80 +175,29 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-    }
-  
-    /*footer*/
+    }  
 
-  footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    footer a {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    footer .footer-columns {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-    }
-
-    footer .footer-column {
-      flex: 1;
-      margin-right: 20px;
-    }
-
-    footer .footer-column:last-child {
-      margin-right: 0;
-    }
-
-    footer ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    footer ul li {
-      margin-bottom: 10px;
-      transition: color 0.3s ease-in-out; /* Add transition effect */
-    }
-
-    footer ul li:hover,
-  footer ul li:hover a {
-    color: #fafc7a; /* Change color on hover */
-  }
-
-    footer p {
-      margin: 0;
-    }
-
-    footer .footer-list {
-      color: #FFF8DC; /* Light Goldenrod Yellow */
-    }
-
+    .section2 {
+      margin-top: 15rem;
+      margin-bottom: 3rem;
+    }    
 </style>
 
 </head>
 
 <header>
-    <!-- Left side with the image link -->
-    <a href="Home.html">
-      <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/415603648_1744353239410126_22271825435465277_n.png?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeH4LK6S3yJyESUH1bDvMisDlGbA7A9onIKUZsDsD2icgvJBLGWwUeOrhjMIWwoBb-1IsrJaIJUSWOWMc-H6K9FW&_nc_ohc=LSYF_aoZk5gAX83CsOg&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdTNhTLeDm8H9inDxxSobB-NYPIf1lyCo_liTyJUlCQ27Q&oe=65D4D9A1" alt="Logo">
-    </a>
+  <input type="checkbox" name="" id="toggler">
+  <label for="toggler"<i class="fa fa-bars" aria-hidden="true"></i></label>
   
-    <!-- Right side with navigation links -->
-    <nav>
-      <ul>
-        <li><a href="Home.html">Home</a></li>
-        <li><a href="About Us.html">About Us</a></li>
-        <li><a href="Service.html">Products/Services</a></li>
-        <li><a href="Partnership.html">Partnership</a></li>
-        <li><a href="Contact Us.html">Contact Us</a></li>
-      </ul>
-    </nav>
+  <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/415603648_1744353239410126_22271825435465277_n.png?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeH4LK6S3yJyESUH1bDvMisDlGbA7A9onIKUZsDsD2icgvJBLGWwUeOrhjMIWwoBb-1IsrJaIJUSWOWMc-H6K9FW&_nc_ohc=LSYF_aoZk5gAX83CsOg&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdTNhTLeDm8H9inDxxSobB-NYPIf1lyCo_liTyJUlCQ27Q&oe=65D4D9A1" class="logo">
+
+  <nav class="navbar" style="font-family: 'Bontang', sans-serif;">
+      <a href="Home.html">Home</a>
+      <a href="About Us.html">About Us</a>
+      <a href="Service.html">Products</a>
+      <a href="Partnership.html">Partnership</a>
+      <a href="Contact Us.html">Contact</a>
+  </nav>
 </header>
 
 <section class="section2">
@@ -375,69 +313,58 @@
 </section>
 
 <section class="team-section">
-    <a href="Classic Donuts.html">
+    <a href="Doughnuts.html">
       <div class="beveled-image">
-        <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/413310915_921480729691985_4290542265361908523_n.png?_nc_cat=103&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFdBMnKvI5RBaesQh11hp3Mw32EUePUwO_DfYRR49TA75uYdk2InI0xAIg024tzAZxmc911rJrY3le5ah6jTGCG&_nc_ohc=QlAM9Bw0XjgAX_7_MNE&_nc_ht=scontent.fmnl25-1.fna&oh=03_AdREHBhwsaek4QtwR6lqMXbTNPiERnvqNaBMA9MLgAkcxw&oe=65D49857" alt="Classic Donuts">
+        <img src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t1.15752-9/416274628_241413009010431_5790826164481950552_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeECqad4VZUnDSXWfwRvEwLBDXlw7a7jQycNeXDtruNDJ0OaMA7GXSH69gjBEg1leiWhuLyEnMna4r23ARTTDZ9U&_nc_ohc=lVcjwzbxL_oAX_zxVo6&_nc_ht=scontent.fmnl8-3.fna&oh=03_AdQYbPlHhaRsB3SVdCxG_0cdsbn4RDNNunD8A11-4HKsEQ&oe=65DEE924" alt="Doughnuts">
       </div>
     </a>
 
-    <a href="Premium Donuts.html">
+    <a href="Frappe.html">
       <div class="beveled-image">
-        <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/416009070_399894575717983_4111554634383123135_n.png?_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHel3z5X5yMADAADBMmx8ifkIl4xYhdFRqQiXjFiF0VGja564hi8VAQnkf4BloTm2Env4v-dRGQe-u9-_aJe4pD&_nc_ohc=cbO0-1OaK3YAX_cMO7v&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdTFVA4A_9Xu3Xz0VVf28-NOOtluchyM9VbEVOZKJq5pGA&oe=65D497C2" alt="Premium Donuts">
+        <img src="https://scontent.fmnl8-1.fna.fbcdn.net/v/t1.15752-9/416145221_1996522607399942_1725457413759762735_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeH4iU2kaMHc75KcTAARjkrcstxEI94iUoyy3EQj3iJSjLv2VPJGoBLQMRdzC6qGXyEBikFSrZi14ARpEpraQPdw&_nc_ohc=-IikhqMqRvMAX_DzWRA&_nc_ht=scontent.fmnl8-1.fna&oh=03_AdT19J960zr0rixwTX1uBsklEK2A5ZNbTp2-IXrtlAxUwg&oe=65DEFA71" alt="Frappe">
       </div>
     </a>
 
-    <a href="Bundle Donuts.html">
+    <a href="Hot Coffee.html">
       <div class="beveled-image">
-        <img src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t1.15752-9/415766753_1724243034653745_3598512970862271837_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFZZKsyn4Wu0JBIN3R7cZeO_hOM15gPbTX-E4zXmA9tNe5pRrDgvCOV1tXZXR1a3pxK0S6Fw3KsZA19eJcQaE2k&_nc_ohc=2xtEuKoJM5UAX8YbTie&_nc_ht=scontent.fmnl25-3.fna&oh=03_AdTT89jdZPtXrnXmOGXIy92xo07by5f4qVjTU_wc5_C0Ow&oe=65D48D3B" alt="Bundle Donuts">
+        <img src="https://scontent-hkg4-1.xx.fbcdn.net/v/t1.15752-9/416186969_1114928236616488_2311265260771802461_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGzG08xIByKok5DRJrshKtSk2hZbAUGq4qTaFlsBQarimn8twsGNFoI3C3zAseVufXq63_WbQ47CNfYxS466Yb_&_nc_ohc=c1v1Lr7F854AX_iVe9l&_nc_ht=scontent-hkg4-1.xx&oh=03_AdRR0KU9lOWUqXBtjB3yASs6YW6vnsWlQJHSAYiun-x39g&oe=65DF1474" alt="Hot Coffee">
       </div>
     </a>
 
-</section>
-
-<footer style="background-color: #D2B48C; /* Soft brown background color */
-               color: #4A3E37; /* Darker text color */
-               padding: 20px 0; /* Padding for content inside the footer */
-               text-align: center; /* Center-align the content */">
-
-<div class="footer-columns" style="font-family: 'Concert One', cursive;">
-  <div class="footer-column">
-    <p>Contact Us:</p>
-    <ul class="footer-list">
-      <li><a href="#">Email</a></li>
-      <li><a href="#">Phone</a></li>
-    </ul>
-  </div>
-
-  <div class="footer-column">
-    <p>Follow Us:</p>
-    <ul class="footer-list">
-      <li><a href="#">Facebook</a></li>
-      <li><a href="#">Twitter</a></li>
-      <li><a href="#">Instagram</a></li>
-    </ul>
-  </div>
-
-  <div class="footer-column">
-    <p>Quick Links:</p>
-    <ul class="footer-list">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Menu</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </div>
-</div>        
-
-    <!-- Copyright notice -->
-    <p>&copy; 2024 Lil' Dozen. All rights reserved.</p>
-    
-    <!-- Optional: Add links or additional information as needed -->
-    <div>
-      <a href="Privacy Policy.html">Privacy Policy</a> |
-      <a href="Terms of Service.html">Terms of Service</a>
+</section> 
+<section class="footer">
+  <div class="box-cont">
+    <div class="box">
+      <h3>Quick Links</h3>
+      <a href="Home.html">Home</a>
+      <a href="About Us.html">About Us</a>
+      <a href="Service.html">Products</a>
+      <a href="Partnership.html">Partnership</a>
+      <a href="Contact Us.html">Contact</a>
     </div>
-</footer>
+
+    <div class="box">
+      <h3>Locations</h3>
+      <div href="#">Valenzuela</div>
+      <div href="#">Meycauayan</div>
+      <div href="#">Marilao</div>
+    </div>
+
+    <div class="box">
+      <h3>Contact Info</h3>
+      <div href="#">+987-654-1230</div>
+      <div href="#">0909-125-7634</div>
+      <div href="#">lildozendoughnuts@gmail.com</div>
+      <div href="#">lildozendoughnuts@yahoo.com</div>
+    </div>
+  </div>
+  
+  <div class="arr">
+    <p>&copy; 2024 Lil' Dozen. All rights reserved.</p>
+    <a href="Privacy Policy.html">Privacy Policy</a> |
+    <a href="Terms of Service.html">Terms of Service</a>
+  </div>
+</section>
 
 </html>
 
