@@ -3,272 +3,258 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lil' Dozen</title>
+<link href="https://fonts.cdnfonts.com/css/bontang" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Wendy+One&display=swap">
-<style>
 
-  html, body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-
-  /* Basic styling for the header */
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    background-color: #D2B48C; /* Soft brown background color */
-    color: #4A3E37; /* Darker text color */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
-    font-family: Arial, sans-serif; /* Font for better readability */
-  }
-
-  /* Style for the image */
-  header img {
-    max-width: 200px;
-    height: auto;
-  }
-
-  /* Style for the navigation links */
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    gap: 30px;
-  }
-
-  nav ul li {
-    padding: 5px 10px;
-  }
-
-  nav ul li a {
-    color: #4A3E37; /* Darker text color for links */
-    text-decoration: none;
-    font-weight: bold; 
-    transition: color 0.3s ease; /* smooth transition */
-  }
-
-  nav ul li a:hover {
-    color: #8B6914; /* Darker shade of brown for hover effect */
-  }
-
-  .content-section {
-    background: #FFF8DC;
-    padding: 10px 30px; /* Some padding for better readability */
-    color: #5C4033; /* Text color for better contrast */
-  }
-
-  .origin-container {
-    width: 500px; /* Width of the container */
-    height: 300px; /* Height of the container */
-    border: 2px solid #4A3E37; /* Dark brown border color */
-    border-radius: 20px; /* Curved corners */
-    margin: 50px auto; /* Centering the container */
-    position: relative; /* Relative positioning */
-  }
-
-  .img-container {
-    width: 500px; /* Width of the container */
-    height: 300px; /* Height of the container */
-    border: 2px solid #4A3E37; /* Dark brown border color */
-    border-radius: 20px; /* Curved corners */
-    margin: 50px 10px; /* Centering the container */
-    position: relative; /* Relative positioning */
-  }
-
-  .new-section {
-    background-image: url('https://t3.ftcdn.net/jpg/04/51/00/44/360_F_451004451_o5HogNoJ6SjzOOHFncJRXFrwJDhu7DBd.jpg');
-    background-size: cover; /* Ensure the image covers the entire header */
-    background-position: center; /* Center the background image */
-    padding: 200px;
-  }
-
-  .p-main {
-    font-size: 23px;
-    line-height: 1.6;
-    width: 80%;
-    text-align: justify;
-    margin: 0 auto; /* Center the paragraphs */
-    margin-top: 20px;
-  }
-  
-  /*footer*/
-
-  footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    footer a {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    footer .footer-columns {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-    }
-
-    footer .footer-column {
-      flex: 1;
-      margin-right: 20px;
-    }
-
-    footer .footer-column:last-child {
-      margin-right: 0;
-    }
-
-    footer ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    footer ul li {
-      margin-bottom: 10px;
-      transition: color 0.3s ease-in-out; /* Add transition effect */
-    }
-
-    footer ul li:hover,
-  footer ul li:hover a {
-    color: #fafc7a; /* Change color on hover */
-  }
-
-    footer p {
-      margin: 0;
-    }
-
-    footer .footer-list {
-      color: #FFF8DC; /* Light Goldenrod Yellow */
-    }
-
-</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+<link rel="stylesheet" href="home.css">
 </head>
-<body>
 
 <header>
-  <!-- Left side with the image link -->
-  <a href="Home.html">
-    <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/415603648_1744353239410126_22271825435465277_n.png?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeH4LK6S3yJyESUH1bDvMisDlGbA7A9onIKUZsDsD2icgvJBLGWwUeOrhjMIWwoBb-1IsrJaIJUSWOWMc-H6K9FW&_nc_ohc=LSYF_aoZk5gAX83CsOg&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdTNhTLeDm8H9inDxxSobB-NYPIf1lyCo_liTyJUlCQ27Q&oe=65D4D9A1" alt="Logo">
-  </a>
+  <input type="checkbox" name="" id="toggler">
+  <label for="toggler"<i class="fa fa-bars" aria-hidden="true"></i></label>
+  
+  <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/415603648_1744353239410126_22271825435465277_n.png?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeH4LK6S3yJyESUH1bDvMisDlGbA7A9onIKUZsDsD2icgvJBLGWwUeOrhjMIWwoBb-1IsrJaIJUSWOWMc-H6K9FW&_nc_ohc=LSYF_aoZk5gAX83CsOg&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdTNhTLeDm8H9inDxxSobB-NYPIf1lyCo_liTyJUlCQ27Q&oe=65D4D9A1" class="logo">
 
-  <!-- Right side with navigation links -->
-  <nav>
-    <ul>
-      <li><a href="Home.html">Home</a></li>
-      <li><a href="About Us.html">About Us</a></li>
-      <li><a href="Service.html">Products/Services</a></li>
-      <li><a href="Partnership.html">Partnership</a></li>
-      <li><a href="Contact Us.html">Contact Us</a></li>
-    </ul>
+  <nav class="navbar" style="font-family: 'Bontang', sans-serif;">
+      <a href="Home.html">Home</a>
+      <a href="About Us.html">About Us</a>
+      <a href="Service.html">Products</a>
+      <a href="Partnership.html">Partnership</a>
+      <a href="Contact Us.html">Contact</a>
   </nav>
 </header>
 
-<section class="content-section">
-  <img src="https://scontent.fmnl34-1.fna.fbcdn.net/v/t1.15752-9/416160034_6714455482014396_9080902344346308421_n.png?stp=dst-png_s2048x2048&_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGaIc_WA8QEc7aQVtF8feQyV9hEXDgSVe9X2ERcOBJV7zdJtGrX6w7gyWkESeq_WbEekhJsYy7MrdmLQsXIM9-g&_nc_ohc=ENXNikTDJ6AAX8TdRfm&_nc_ht=scontent.fmnl34-1.fna&oh=03_AdRDF1SVBoXsk9SqJ5saiJbar-S8abg0tUF_IM_t2CS7aw&oe=65C9B5F0" width="100%">
-  <img src="https://icons.iconarchive.com/icons/pixelkit/tasty-bites/512/donuts-icon.png" width="150px" style="display: block; margin: 0 auto;">
-  <h1 style="font-family: 'Wendy One', sans-serif; text-align: center; font-size: 60px; margin-top: -20px;">LIL' DOZEN ORIGIN</h1><br>
-
-  <p class="p-main" style="margin-top: -60px; font-family: 'Concert One', sans-serif; text-align: center; font-size: 25px; color:#5C4033">
-    In a community facing economic challenges, a local baker noticed 
-    many people struggling to afford basic necessities. Wanting to help, 
-    the baker started selling extra boxes of doughnuts, with the idea 
-    to give the same amount to local charities. Word spread, and some 
-    residents started buying the boxes to support the cause. Over time, 
-    the initiative helped provide more food to those in need, but it 
-    remained a simple effort without much fanfare, just a way to give 
-    back to the community.
-  </p>
+<section class="home" id="home">
+  <!--Home Section-->
+    <div class="content">
+        <h3>Lil' Dozen</h3>
+        <span>Little dozen satiates a thousand hungers.</span>
+        <p>Discover the delightful world of our bitesized creations that pack a punch, 
+          satisfying every craving with a burst of flavor in every bite."</p>
+        <a href="Service.html" class="butones">Explore Further</a>
+    </div>
 </section>
 
-<center class="content-section">
-  <table style="margin-top: -50px;">
-    <tr>
-      <!-- Cell for the origin container -->
-      <td style="vertical-align: top; padding-right: 20px;">
-        <img class="img-container" src="https://scontent.fmnl34-1.fna.fbcdn.net/v/t1.15752-9/413974021_388507383563534_3483521502833800135_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=104&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGEpY_GPsRjGTEJV5_644vHm4zcRBAde12bjNxEEB17XSNzKOluWBk7FA16QXAJZ_OaH6MIbeHfvocjqEjWxMLm&_nc_ohc=Bm-2SgGZ9nIAX9qdUpg&_nc_ht=scontent.fmnl34-1.fna&oh=03_AdTs4eg6FbpgHm0nO6YyqfFpA9xOS-tSSqywkQRVZDCzBA&oe=65C9F964" alt="">
-      </td>
-      
-      <td style="vertical-align: top;">
-        <img class="img-container" src="https://www.shutterstock.com/image-photo/people-fast-food-fun-concept-600nw-1367383034.jpg">
-      </td>
-    </tr>
-
-    <tr>
-      <td style="vertical-align: top;">
-        <img class="img-container" src="https://img.freepik.com/premium-photo/young-beautiful-woman-yellow-background-with-donuts-high-quality-photo_470178-21572.jpg">
-      </td>
-
-      <td style="vertical-align: top;">
-        <img class="img-container" src="https://scontent.fmnl34-1.fna.fbcdn.net/v/t1.15752-9/411337927_346721491485587_4144076303945811713_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHdGrK07IJ79iy9OmxEOZqh5a0tWMdTdO3lrS1Yx1N07UrmFFlYVaqcsjyTSzZzbfvHi39J4R2a2T0wi8zhIehz&_nc_ohc=Xofs3Oxc0TgAX8ZPzba&_nc_ht=scontent.fmnl34-1.fna&oh=03_AdRMnMPYyqdQ5zBIokMOzhWgCw7NMG4Qv-vU_5_dc5NT8Q&oe=65C9E1C3">
-      </td>
-    </tr>
-
-    <tr>
-      <td style="vertical-align: top;">
-        <img class="img-container" src="https://scontent.fmnl34-1.fna.fbcdn.net/v/t1.15752-9/413466131_760886009404060_6105580612068279178_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEMwMRWJZSAM0hBqWsQJAc5pDV16Q26rZGkNXXpDbqtkZ1__QqSJcZwdVHODD_67L8EAg9Ecvye8AJ3zV_2q3Oy&_nc_ohc=51jqLvn8vVcAX9SRQrJ&_nc_ht=scontent.fmnl34-1.fna&oh=03_AdT27tG4dMsCvPxh3DHnNBLzqDNntvw4PKy5rRw39hAtKw&oe=65C9EDB9">
-      </td>
-
-      <td style="vertical-align: top;">
-        <img class="img-container" src="https://img.freepik.com/free-photo/young-woman-looking-aside-with-surprise-face-going-eat-sweet-pink-donut_295783-1652.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696464000&semt=ais">
-        <img src="">
-      </td>
-    </tr>
-  </table>
-</center>
-
-<section class="new-section">
-  <h1></h1>
-</section>
-
-<footer style="background-color: #D2B48C; /* Soft brown background color */
-               color: #4A3E37; /* Darker text color */
-               padding: 20px 0; /* Padding for content inside the footer */
-               text-align: center; /* Center-align the content */">
-
-<div class="footer-columns" style="font-family: 'Concert One', cursive;">
-  <div class="footer-column">
-    <p>Contact Us:</p>
-    <ul class="footer-list">
-      <li><a href="#">Email</a></li>
-      <li><a href="#">Phone</a></li>
-    </ul>
-  </div>
-
-  <div class="footer-column">
-    <p>Follow Us:</p>
-    <ul class="footer-list">
-      <li><a href="#">Facebook</a></li>
-      <li><a href="#">Twitter</a></li>
-      <li><a href="#">Instagram</a></li>
-    </ul>
-  </div>
-
-  <div class="footer-column">
-    <p>Quick Links:</p>
-    <ul class="footer-list">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Menu</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </div>
-</div>    
-
-    <!-- Copyright notice -->
-    <p>&copy; 2024 Lil' Dozen. All rights reserved.</p>
+<section class="about" id="about">
+  <!--About Section-->
+    <h1 class="heading"><span>About</span>&nbsp; Us</h1>
     
-    <!-- Optional: Add links or additional information as needed -->
-    <div>
+    <div class="row">
+        <div class="image-container">
+            <img src="https://media.istockphoto.com/id/637154654/photo/dough.jpg?s=612x612&w=0&k=20&c=YiWKkj-nMdYJHiUSzx-2B6IrBpDwpe3l1b8qJBFdvLM=" alt="k-dough">
+            <h3>Best dough maker!</h3>
+        </div>
+
+        <div class="content">
+            <h3>Why Choose Us?</h3>
+            <p>
+              Opt for Lil' Dozen as your premier choice in the competitive landscape of artisanal donuts. 
+              Our unwavering dedication to superior quality, innovative culinary craftsmanship, and a 
+              steadfast commitment to customer satisfaction distinguishes us in the market. Elevate your 
+              culinary expectations with Lil' Dozen, where excellence and professionalism converge to 
+              redefine the standard for gourmet indulgences. 
+            </p>
+            <a href="About Us.html" class="butones">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<section class="icons-cont">
+  <div class="icons">
+    <img class="icons-pic" src="https://scontent.fmnl25-2.fna.fbcdn.net/v/t1.15752-9/415622411_1038399697223168_547470357413900091_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHhDDc7qGomKNIh9HInhG3bkaA-8wg2Hp6RoD7zCDYeni3E1UlHaCZMcZU_JpDgULHDmHso7yYPpnuSBLPgvjSz&_nc_ohc=bqduJpyAODcAX9GXxbC&_nc_ht=scontent.fmnl25-2.fna&oh=03_AdSca2qdaPQLC2xZKvMq7jvGbc-P9rgpRHYHD_MKxIh8iA&oe=65D857AA" alt="">
+    <div class="info">
+      <h3>Free Delivery</h3>
+      <span>On All Orders</span>
+    </div>
+  </div>
+  
+  <div class="icons">
+    <img class="icons-pic" src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t1.15752-9/420194778_1793720971054660_155452365968107016_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeE7zUqUe8dHXboN8kbpzDDzansG2fpNazpqewbZ-k1rOjdCjQ2bX-NYlxDNkEDceuunzr8GUNd9NNHJhGQZkCyF&_nc_ohc=noSagCOPe28AX9krPMd&_nc_ht=scontent.fmnl25-3.fna&oh=03_AdTXeks8rjX07AiLeV-rnGLBjACRR1o9AKzWwaBxR9XKiQ&oe=65D8504D" alt="">
+    <div class="info">
+      <h3>Satisfaction Guarantee</h3>
+      <span>On Donuts Quality</span>
+    </div>
+  </div>
+
+  <div class="icons">
+    <img class="icons-pic" src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/414323197_1202628013918239_1143290451651137517_n.png?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGRMBVUzNLzRfcO-kVfnWf_ivW48_l2pd6K9bjz-Xal3ueSHNQ8r7merbnO9bH0tMguQHe4Q_UMzdrNhUZ2TdAb&_nc_ohc=-y2ggHdpXlMAX_w1yGn&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdQ7TTdnVFGBwUFOjU2Tzsq_EmrZhHyweUfk_BJPIm3FfA&oe=65D8318E" alt="">
+    <div class="info">
+      <h3>Customization Options</h3>
+      <span>For Special Requests</span>
+    </div>
+  </div>
+
+  <div class="icons">
+    <img class="icons-pic" src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t1.15752-9/413333986_6974779425963142_4184312394392722224_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHoMiQc_IeHdOo8287ebZj7g_98bYprU_yD_3xtimtT_B5WxyCJqA4xYLI4jF-Gv8NttVgPWW6PoaevUFreKSzY&_nc_ohc=5tXlbSv-waYAX8brR_n&_nc_oc=AQlYawfGql8nQqRsRHkr915tINTzCujAUcI9EqZJtAgIRNo8ASXpCTTivzn0JiX75Uo&_nc_ht=scontent.fmnl25-3.fna&oh=03_AdTBuFn4XfvdTCCRgzliGE6miuHblvMQtGitEbdi6t6HMw&oe=65D8586F" alt="">
+    <div class="info">
+      <h3>Seasonal Specials</h3>
+      <span>For Seasonal Offerings</span>
+    </div>
+  </div>
+</section>
+
+<section class="products" id="products">
+  <!--Products-->
+    <h1 class="heading">Best<span>&nbsp;Seller</span></h1>
+    <div class="box-cont">
+      <div class="box">
+        <span class="discover">-10%</span>
+        <div class="image">
+          <img src="https://scontent.fmnl25-2.fna.fbcdn.net/v/t1.15752-9/416109361_961354082269160_8297723531448952055_n.png?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGSpEGn4X6dwsYRuM18_2_Juc2pL_GFRXu5zakv8YVFexEnKiMAp0GQn6aeAS2p8Zsa69hVZC5Ol05Qz6CX578e&_nc_ohc=kMmshGRqLpYAX_EFdDM&_nc_ht=scontent.fmnl25-2.fna&oh=03_AdQDbqZ4WeOffDYZGKLnj_0uLlSRvCsTCfZYzFQbdlIWOw&oe=65D8520D" alt="">
+          <div class="icons">
+          </div>
+        </div>
+        <div class="content">
+          <h3>Honey Glaze</h3>
+          <div class="price">₱27.00 <span>₱30.00</span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <span class="discover">-10%</span>
+        <div class="image">
+          <img src="https://scontent.fmnl25-2.fna.fbcdn.net/v/t1.15752-9/415779253_1363349004298164_5442583402319236042_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeE0tjN3K8ewJ7teOJARvoJmjtE8KmykOrCO0TwqbKQ6sKpf_nVhuQygvP_vysQQcO27WBwCg6UyRtW7VP0_xKr7&_nc_ohc=2R-3eXdaBooAX-1CsdV&_nc_ht=scontent.fmnl25-2.fna&oh=03_AdTDshgtIyKEkzNdm6ZyQrymch45fG0wJqU4saBiRs9TSA&oe=65D86881" alt="">
+          <div class="icons">
+          </div>
+        </div>
+        <div class="content">
+          <h3>Alcapone</h3>
+          <div class="price">₱45.00 <span>₱50.00</span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <span class="discover">-10%</span>
+        <div class="image">
+          <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/415870810_369968059005680_6306357654593656805_n.png?_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHUj-E6h3ca4iRxvjJIH35fwBhbeq7jkQHAGFt6ruORAYq6N-caiD7grDirqonFXidpx3T05KtiRGx53U1RE8pB&_nc_ohc=d3SupeLYXV0AX8PKxTn&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdS6PyGEht_ANFXDfOAIle9CGflGdQWEMXQd0rOgRLjZmA&oe=65D87951" alt="">
+          <div class="icons">
+          </div>
+        </div>
+        <div class="content">
+          <h3>Choco Caviar</h3>
+          <div class="price">₱45.00 <span>₱50.00</span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <span class="discover">-5%</span>
+        <div class="image">
+          <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/413204188_406874421768860_5909602320986508296_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGdYN3Oct1OyTjQzBPqXTFF5woyt9mzdoHnCjK32bN2gbOg0FmV9_Rw_i4WFdcl_U8une6JTqvyQV9FI7Dc9AR1&_nc_ohc=Iro-_vTiybUAX9EwZGV&_nc_ht=scontent.fmnl25-1.fna&oh=03_AdRstnfp6_WZVEqFPAUUVezfTkM-8J7ocowYAVR6FL8byQ&oe=65D88BF0" alt="">
+          <div class="icons">
+          </div>
+        </div>
+        <div class="content">
+          <h3>Chocolate Frappe</h3>
+          <div class="price">₱66.50 <span>₱70.00</span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <span class="discover">-5%</span>
+        <div class="image">
+          <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/413209640_853672989776889_2670109261738629851_n.png?_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFZEKi-lkd7dm_zKDjf8_wp3Hu7ub0bIuDce7u5vRsi4F4os7oNDgR_BduWyL4lsjm-tYFgHsL5Z8a4vUXqgsoA&_nc_ohc=L60QlNz-TxYAX9cNFRu&_nc_ht=scontent.fmnl25-1.fna&oh=03_AdTFcP-wDC8AbdaelXc1gKuvG77WX8zo0y6wD087BWFjBw&oe=65D86FF0" alt="">
+          <div class="icons">
+          </div>
+        </div>
+        <div class="content">
+          <h3>Caramel Frappe</h3>
+          <div class="price">₱66.50 <span>₱70.00</span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <span class="discover">-5%</span>
+        <div class="image">
+          <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/416157968_1300033831398621_3359839031437298560_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeF0e8wqtkN1aGfHJVuXuM-qMhTk_9lPE4EyFOT_2U8TgV4qeXTwvrXE54k1mgzquNCqCeOtexyH412_NWNlz3Wf&_nc_ohc=uTeb4zIV3M8AX_Gdawb&_nc_ht=scontent.fmnl25-1.fna&oh=03_AdRyD052vhLnILbAUXYaZvvCeXn2ICVK6jMslB4vLBqfvw&oe=65D884AB" alt="">
+          <div class="icons">
+          </div>
+        </div>
+        <div class="content">
+          <h3>Frappuccino</h3>
+          <div class="price">₱95.00 <span>₱100.00</span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <span class="discover">-5%</span>
+        <div class="image">
+          <img src="https://scontent.fmnl25-2.fna.fbcdn.net/v/t1.15752-9/415780456_749904883326758_6877720213340624813_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEB_MlijxAmXAgB7W8OiNsH-odeSQbHG-n6h15JBscb6Ucaq3YQGp7Dfc9VgdC_JAY_3vD_G1uiZC0hkPQmqBJd&_nc_ohc=NLwr1LbhsUIAX8oXAtX&_nc_ht=scontent.fmnl25-2.fna&oh=03_AdSBnp6v0ymyZRZQFNzlxHduzSnL0gAWcc3tA4T8lAMNMA&oe=65D87AD8" alt="">
+          <div class="icons">
+          </div>
+        </div>
+        <div class="content">
+          <h3>Americano</h3>
+          <div class="price">₱76.00 <span>₱80.00</span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <span class="discover">-5%</span>
+        <div class="image">
+          <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/417254443_341748338761107_4253667158649734252_n.png?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGVTStYhS6ne3Ghj8PIkEaxHq__W0YvrzIer_9bRi-vMlanmzZkj289V11x8PiONkrUPdM4w4j6jNo5u8KskrSh&_nc_ohc=huHeNwm111oAX8O4TsB&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdSRWicLXUY55mfDPPtfbsGtBLeqPqTDBcy6aaUygpqOIA&oe=65D88D39" alt="">
+          <div class="icons">
+          </div>
+        </div>
+        <div class="content">
+          <h3>Cafe Latte</h3>
+          <div class="price">₱76.00 <span>₱80.00</span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <span class="discover">-5%</span>
+        <div class="image">
+          <img src="https://scontent.fmnl25-5.fna.fbcdn.net/v/t1.15752-9/417178133_1436589950608851_6377160227344406500_n.png?_nc_cat=104&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGe4a7YopBdDR52oLOriC6mP77VuL_Ywkw_vtW4v9jCTDM2K84AD0vGsMPv5mehIx5Djupljtl9qnXi6eJj0mhG&_nc_ohc=_cI-sOXTE0QAX9UQ-fE&_nc_ht=scontent.fmnl25-5.fna&oh=03_AdTD9TWP26XpQRX8gR4fufpvJJKfC163_iZeg6Em3el2EQ&oe=65D87762" alt="">
+          <div class="icons">
+          </div>
+        </div>
+        <div class="content">
+          <h3>Hazelnut Latte</h3>
+          <div class="price">₱76.00 <span>₱80.00</span></div>
+        </div>
+      </div>
+    </div>
+    
+    <div style="text-align: center;">
+      <a href="Service.html" class="butones">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;View Our Full Menu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="box-cont">
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="Home.html">Home</a>
+        <a href="About Us.html">About Us</a>
+        <a href="Service.html">Products</a>
+        <a href="Partnership.html">Partnership</a>
+        <a href="Contact Us.html">Contact</a>
+      </div>
+
+      <div class="box">
+        <h3>Locations</h3>
+        <div href="#">Valenzuela</div>
+        <div href="#">Meycauayan</div>
+        <div href="#">Marilao</div>
+      </div>
+
+      <div class="box">
+        <h3>Contact Info</h3>
+        <div href="#">+987-654-1230</div>
+        <div href="#">0909-125-7634</div>
+        <div href="#">lildozendoughnuts@gmail.com</div>
+        <div href="#">lildozendoughnuts@yahoo.com</div>
+      </div>
+    </div>
+    
+    <div class="arr">
+      <p>&copy; 2024 Lil' Dozen. All rights reserved.</p>
       <a href="Privacy Policy.html">Privacy Policy</a> |
       <a href="Terms of Service.html">Terms of Service</a>
     </div>
-</footer>
-
-</body>
+  </section>
 </html>
