@@ -7,24 +7,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Wendy+One&display=swap">
+    <link href="https://fonts.cdnfonts.com/css/bontang" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="head-foot.css">
+    <link rel="stylesheet" href="founder.css">
+    <link rel="stylesheet" href="org-plans.css">
 <style>
-  /* Basic styling for the header */
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    background-color: #D2B48C; 
-    color: #4A3E37;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
-    font-family: Arial, sans-serif; 
-  }
-
-  header img {
-    max-width: 200px;
-    height: auto;
-  }
-
   nav ul {
     list-style-type: none;
     padding: 0;
@@ -62,6 +52,7 @@
             color: #4A3E37; 
             border-radius: 20px; 
             margin: 50px; 
+            margin-top: 15rem;
             position: relative;
             align-content: center;
         }
@@ -74,22 +65,39 @@
         }
 
         .team-member {
-            width: 200px;
-            margin: 15px;
+            width: 250px;
+            margin: 30px;
             background-color: rgba(255, 255, 255, 0.8); 
             padding: 15px;
-            border-radius: 10px; 
+            border-radius: 10px;
+            font-size: 13px;
+        }
+
+        .team-member h3 {
+          margin-bottom: .5rem;
+        }
+
+        .team-member p {
+          margin-bottom: 2rem;
         }
 
         .team-member img {
             border-radius: 50%;
             max-width: 100%;
             height: auto;
+            margin-bottom: 2rem;
+            width: 250px;
         }
 
         @media (max-width: 768px) {
             .team-member {
-                width: 100%;
+                width: 75%;
+            }
+        }
+
+        @media (max-width: 450px) {
+            .team-member {
+                width: 45%;
             }
         }
 
@@ -105,80 +113,47 @@
             margin: 0 auto;
             margin-top: 20px;
         }
+        
+        .heading {
+            text-align: center;
+            font-size: 4rem;
+            color: #5C4033;
+            padding: 2rem;
+            margin: 2rem 0;
+            background: #FFF;
+            background-size: 2rem 9%;;
+            font-family: 'Wendy One', sans-serif;
+        }
 
-        /*footer*/
+        .heading span {
+            color:#BE731C;
+        }
 
-  footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
 
-    footer a {
-      color: #fff;
-      text-decoration: none;
-    }
 
-    footer .footer-columns {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-    }
-
-    footer .footer-column {
-      flex: 1;
-      margin-right: 20px;
-    }
-
-    footer .footer-column:last-child {
-      margin-right: 0;
-    }
-
-    footer ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    footer ul li {
-      margin-bottom: 10px;
-      transition: color 0.3s ease-in-out; /* Add transition effect */
-    }
-
-    footer ul li:hover,
-  footer ul li:hover a {
-    color: #fafc7a; /* Change color on hover */
-  }
-
-    footer p {
-      margin: 0;
-    }
-
-    footer .footer-list {
-      color: #FFF8DC; /* Light Goldenrod Yellow */
-    }
-
+        
+      
+    
 </style>
 
 
 <header>
-  <a href="Home.html">
-    <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/415603648_1744353239410126_22271825435465277_n.png?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeH4LK6S3yJyESUH1bDvMisDlGbA7A9onIKUZsDsD2icgvJBLGWwUeOrhjMIWwoBb-1IsrJaIJUSWOWMc-H6K9FW&_nc_ohc=LSYF_aoZk5gAX83CsOg&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdTNhTLeDm8H9inDxxSobB-NYPIf1lyCo_liTyJUlCQ27Q&oe=65D4D9A1" alt="Logo">
-  </a>
+  <input type="checkbox" name="" id="toggler">
+  <label for="toggler"<i class="fa fa-bars" aria-hidden="true"></i></label>
+  
+  <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/415603648_1744353239410126_22271825435465277_n.png?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeH4LK6S3yJyESUH1bDvMisDlGbA7A9onIKUZsDsD2icgvJBLGWwUeOrhjMIWwoBb-1IsrJaIJUSWOWMc-H6K9FW&_nc_ohc=LSYF_aoZk5gAX83CsOg&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdTNhTLeDm8H9inDxxSobB-NYPIf1lyCo_liTyJUlCQ27Q&oe=65D4D9A1" class="logo">
 
-    <nav>
-      <ul>
-        <li><a href="Home.html">Home</a></li>
-        <li><a href="About Us.html">About Us</a></li>
-        <li><a href="Service.html">Products/Services</a></li>
-        <li><a href="Partnership.html">Partnership</a></li>
-        <li><a href="Contact Us.html">Contact Us</a></li>
-      </ul>
-    </nav>
+  <nav class="navbar" style="font-family: 'Bontang', sans-serif;">
+      <a href="Home.html">Home</a>
+      <a href="About Us.html">About Us</a>
+      <a href="Service.html">Products</a>
+      <a href="Partnership.html">Partnership</a>
+      <a href="Contact Us.html">Contact</a>
+  </nav>
 </header>
 
 <div class="about-us-container">
-    <h1 style="font-family: 'Wendy One', sans-serif; font-size: 50px;">ABOUT US</h1>
+    <h1 style="font-family: 'Wendy One', sans-serif; font-size: 70px; margin-bottom: 20px;">ABOUT US</h1>
     <img class="about-us-image" src="https://scontent.fmnl34-1.fna.fbcdn.net/v/t1.15752-9/413339664_744689337559330_2359737598573628750_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeERmw7iVmxt6GtyMSC9SeYAIP6vhWi54E4g_q-FaLngTnqFZN55mN_eI0OxpoIgDdb6obxtcDO8jXK6IawRk63c&_nc_ohc=ggXFq_iqqhkAX8-dKD4&_nc_ht=scontent.fmnl34-1.fna&oh=03_AdQa4sZoQbMZgztkElLdKEkdSu3cPgvtrE4TxW_lVMVURA&oe=65CB43AC" width="80%">
     <p class="p-main" style="font-size: 23px; line-height: 1.6;font-family: 'Concert One', cursive; width: 80%; text-align: justify; margin-top: 20px;">
         Lil' Dozen is more than just a sweet treat destination; it's a small business with a 
@@ -207,16 +182,36 @@
 </div>
 
 <center>
-<h1 style="font-family: 'Wendy One', sans-serif; font-size: 50px;">Members of the Board</h1>
+  <h1 class="heading">The <span>Founder</span></h1>
 </center>
 
-<section class="team-section" style="text-align: center;">
+<section class="about">
+  <div class="content">
+    <img src="https://scontent.fmnl8-1.fna.fbcdn.net/v/t1.15752-9/415687379_7104179706298345_1099544868764433870_n.png?_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFLNhx0mlPrOHUfsICFxy-k4wIggO-vtMTjAiCA76-0xIvmuZb5Ou9lwSS8Sv7LWvXq_8MlM_Hw8oJkEacB68rp&_nc_ohc=4lu0nGwWKzQAX-dV5hm&_nc_ht=scontent.fmnl8-1.fna&oh=03_AdTUD4tQ2HmNR7DcoAtPhafRmqjZItRF8o-LNHG_qQGZ7g&oe=65DDE18D" alt="">
+    <div class="text">
+      <h1>Josebell Arevalo</h1>
+      <h5>CEO | Entrepreneur | Baker</h5>
+      <p>
+        The founder of Lil' Dozen, a notable doughnut business, seamlessly integrates entrepreneurship 
+        and social responsibility. Transforming the enterprise into a catalyst for positive change, the 
+        founder collaborates with grassroots organizations, emphasizing community education and skill 
+        development. Lil' Dozen not only satisfies culinary cravings but actively addresses societal 
+        inequalities. Patrons unknowingly contribute to breaking the cycle of poverty with each purchase, 
+        making it more than just a gastronomic experience. The founder's commitment extends beyond the 
+        business, embodying a vision for lasting societal impact. Lil' Dozen serves as a beacon for a 
+        more equitable and compassionate society, inspiring both customers and the community at large. 
+        The business stands as a testament to the founder's dedication to effecting positive change 
+        through innovative and socially conscious business practices.
+      </p>
+    </div>
+  </div>
+</section>
 
-<div class="team-member">
-    <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/416066461_1120705922300107_7328948289659614848_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFzHPx59xlrRML-HWU01dqlyMckVeVmicvIxyRV5WaJy6F9dQ8i7LvXPnK-laEbaIhXk3UaiI58brQZ7fVC9Lep&_nc_ohc=gSLY-27lmZ4AX9ZjS3G&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdTAsBWaLg2jPpUmEwxi2JUOhaPcy-DMO2zAXsWCUGUb6g&oe=65D30142" alt="Team Member 1">
-    <h3>Josebell Arevalo</h3>
-    <p>Founder</p>
-</div>
+<center>
+<h1 class="heading">Members <span>of </span>the <span>Board</span></h1>
+</center>
+
+<section class="team-section" style="text-align: center;"> 
 
 <div class="team-member" style="text-align: center;">
     <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/418035833_1127704955069964_2351050110321877244_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEyOt1GftWUmRS2UDZM2RxSvWKuu9c5-XS9Yq671zn5dMYSnV0bbUKNdAK8PICOTq25-vO8RtKFbjV6ywIGjzUq&_nc_ohc=zJjXbu662pcAX_-ggPa&_nc_ht=scontent.fmnl25-1.fna&oh=03_AdQHvjrFg5pKnPa5pfMt2KrdsnE9YTx3JwtZnRm5vCRGYg&oe=65D30E69" alt="Team Member 2">
@@ -226,13 +221,13 @@
 
 <div class="team-member" style="text-align: center;">
   <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/418381246_904110041246384_2027550836759786069_n.jpg?stp=dst-jpg_p206x206&_nc_cat=105&ccb=1-7&_nc_sid=510075&_nc_eui2=AeEurYjFb8Hmk1BEOo8LCfuZZJ47daixwMBknjt1qLHAwNB6OQ2JHOstHZWDWHMiY--9IU3ttJKxQjEVO2j6TU_g&_nc_ohc=h2D4beOtjAwAX-Aacli&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTxTMJOEtQIRIUwxUF4ww5MihGi3KqEvCz7bSZslDey1Q&oe=65D3A148" alt="Team Member 3">
-  <h3>Brylle Salvador</h3>
+  <h3>Luis Salvador</h3>
   <p>Managing Director</p>
 </div>
 
 <div class="team-member" style="text-align: center;">
-  <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/418001588_1462165741323107_5070476131364669936_n.jpg?stp=dst-jpg_p206x206&_nc_cat=109&ccb=1-7&_nc_sid=510075&_nc_eui2=AeE-2PUFE6T3fidL1KM1FN57JKTrOG_ZaVokpOs4b9lpWuavWw9Hj6RVbAMEJPEeyH7CRDyWF9xyHoBtEWfDyI1j&_nc_ohc=eXGu46VS1IUAX-NchOd&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQK8oCtmoyIJkwRGIYT-bswcFwih8jQIRbKDqerLVvTWA&oe=65D38EEE" alt="Team Member 4">
-  <h3>Kayzl Francisco</h3>
+  <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/419732473_761957915800015_8375608999098610103_n.jpg?stp=dst-jpg_s206x206&_nc_cat=101&ccb=1-7&_nc_sid=510075&_nc_eui2=AeFciiuC_6MZ6rcGBagFA1_j5q1sTNmCKRzmrWxM2YIpHBS2iI2OaIddl87oAaEIHQbZJmWHs8T4wMzc5Qy1kmej&_nc_ohc=lLP02SS-e84AX9T7Xf7&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQuTE-sZqL4TnfHShef_lpdhCCS-flqugIKC8Uv3IsMJg&oe=65D2F6F3" alt="Team Member 9">
+  <h3>Mauis Jhenzel Ponio</h3>
   <p>Head Chef</p>
 </div>
 
@@ -249,67 +244,57 @@
 </div>
 
 <div class="team-member" style="text-align: center;">
-  <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/417860641_3258481324297110_473305595983339330_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFa1JXMj-RYU29nXUoq1q3ds6PKY8KZwz2zo8pjwpnDPQe_H19kRntRt9EdML39bsp9KbXb5YKmjSdO3qAgQjea&_nc_ohc=6ssQrTFufKAAX9sCwoF&_nc_ht=scontent.fmnl25-4.fna&oh=03_AdT-qrvwaU3Dw0qxERKZrPPTbLV_y3WfNcS5SNuUal7Ljg&oe=65D50447" alt="Team Member 8">
-  <h3>Gab Cordova</h3>
+  <img src="https://scontent.fmnl8-1.fna.fbcdn.net/v/t1.15752-9/417233433_405536741844134_2604180349245066700_n.png?_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeE3PQoYBMhj_AL3aIWOCuo9QWputXY5k-NBam61djmT4045BAbMUsPu0ik6F_j8KI_-cThyIju0o8OkYKoRgv_3&_nc_ohc=amkZ5d24-lgAX-rpBba&_nc_ht=scontent.fmnl8-1.fna&oh=03_AdQtgnf17qFASKbqoImlkpVD2XN_rP1prfB3zhS5sJTQ1A&oe=65DDE534" alt="Team Member 8">
+  <h3>Rommelyn Gonzales</h3>
   <p>Operations Manager</p>
 </div>
 
 <div class="team-member" style="text-align: center;">
-  <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/416056842_1492197031327103_9021023583660450516_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHi_3WqP8UUL_oirKrYNFpWB5yQrxDpycYHnJCvEOnJxrDBWy128EEqL4_OKZRUSyePVqzbJ2gK2e7bbVjFAeMY&_nc_ohc=K6xI4wDANN4AX8f_kur&_nc_ht=scontent.fmnl25-1.fna&oh=03_AdRq1TKT2GmlhIaRvh8S23CrjIuNziJwwDSRvomEhUTVHg&oe=65D4DC61" alt="Team Member 7">
-  <h3>Jerald Santos</h3>
+  <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/417956689_1308936313113414_7914021022902805346_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHukWGncH4L0fu8lAQQam7V0zkDkfHTPrXTOQOR8dM-tZGjriOpAuXkrbPmgjRqEGFgh6__VtSalttZE4m_ZY6i&_nc_ohc=KWrkpJ9eaFQAX-e9jEZ&_nc_ht=scontent.fmnl25-1.fna&oh=03_AdTZdnih1ZdzDI0hYuUs_W9I9pSDKsn2rIdWER5Dok-PCA&oe=65D37691" alt="Team Member 7">
+  <h3>Paula Beatrice Juat</h3>
   <p>Customer Relations Representative</p>
 </div>
 
 <div class="team-member" style="text-align: center;">
-  <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/419732473_761957915800015_8375608999098610103_n.jpg?stp=dst-jpg_s206x206&_nc_cat=101&ccb=1-7&_nc_sid=510075&_nc_eui2=AeFciiuC_6MZ6rcGBagFA1_j5q1sTNmCKRzmrWxM2YIpHBS2iI2OaIddl87oAaEIHQbZJmWHs8T4wMzc5Qy1kmej&_nc_ohc=lLP02SS-e84AX9T7Xf7&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQuTE-sZqL4TnfHShef_lpdhCCS-flqugIKC8Uv3IsMJg&oe=65D2F6F3" alt="Team Member 9">
-  <h3>Mauis Jhenzel Ponio</h3>
-  <p>Local Community Representative</p>
-</div>
-
-<div class="team-member" style="text-align: center;">
-  <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/417956689_1308936313113414_7914021022902805346_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHukWGncH4L0fu8lAQQam7V0zkDkfHTPrXTOQOR8dM-tZGjriOpAuXkrbPmgjRqEGFgh6__VtSalttZE4m_ZY6i&_nc_ohc=KWrkpJ9eaFQAX-e9jEZ&_nc_ht=scontent.fmnl25-1.fna&oh=03_AdTZdnih1ZdzDI0hYuUs_W9I9pSDKsn2rIdWER5Dok-PCA&oe=65D37691" alt="Team Member 10">
-  <h3>Paula Beatrice Juat</h3>
+  <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/418001588_1462165741323107_5070476131364669936_n.jpg?stp=dst-jpg_p206x206&_nc_cat=109&ccb=1-7&_nc_sid=510075&_nc_eui2=AeE-2PUFE6T3fidL1KM1FN57JKTrOG_ZaVokpOs4b9lpWuavWw9Hj6RVbAMEJPEeyH7CRDyWF9xyHoBtEWfDyI1j&_nc_ohc=eXGu46VS1IUAX-NchOd&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQK8oCtmoyIJkwRGIYT-bswcFwih8jQIRbKDqerLVvTWA&oe=65D38EEE" alt="Team Member 4">
+  <h3>Kayzl Francisco</h3>
   <p>Quality Control Specialist</p>
 </div>
 </section>
 
-<footer style="background-color: #D2B48C; color: #4A3E37; padding: 20px 0; text-align: center;">
+<section class="footer">
+  <div class="box-cont">
+    <div class="box">
+      <h3>Quick Links</h3>
+      <a href="Home.html">Home</a>
+      <a href="About Us.html">About Us</a>
+      <a href="Service.html">Products</a>
+      <a href="Partnership.html">Partnership</a>
+      <a href="Contact Us.html">Contact</a>
+    </div>
 
-  <div class="footer-columns" style="font-family: 'Concert One', cursive;">
-    <div class="footer-column">
-      <p>Contact Us:</p>
-      <ul class="footer-list">
-        <li><a href="#">Email</a></li>
-        <li><a href="#">Phone</a></li>
-      </ul>
+    <div class="box">
+      <h3>Locations</h3>
+      <div href="#">Valenzuela</div>
+      <div href="#">Meycauayan</div>
+      <div href="#">Marilao</div>
     </div>
-  
-    <div class="footer-column">
-      <p>Follow Us:</p>
-      <ul class="footer-list">
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Instagram</a></li>
-      </ul>
-    </div>
-  
-    <div class="footer-column">
-      <p>Quick Links:</p>
-      <ul class="footer-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-  </div>    
 
-  <p>&copy; 2024 Lil' Dozen. All rights reserved.</p>
-<div>
+    <div class="box">
+      <h3>Contact Info</h3>
+      <div href="#">+987-654-1230</div>
+      <div href="#">0909-125-7634</div>
+      <div href="#">lildozendoughnuts@gmail.com</div>
+      <div href="#">lildozendoughnuts@yahoo.com</div>
+    </div>
+  </div>
+  
+  <div class="arr">
+    <p>&copy; 2024 Lil' Dozen. All rights reserved.</p>
     <a href="Privacy Policy.html">Privacy Policy</a> |
     <a href="Terms of Service.html">Terms of Service</a>
-</div>
-</footer>
+  </div>
+</section>
 
 </body>
 
